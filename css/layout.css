@@ -174,7 +174,7 @@ ul#nav li.current a { color: #F06000; }
 #about {
    background: #fff;
    padding-top: 40px;
-   padding-bottom: 66px;
+   padding-bottom: 10px;
    overflow: hidden;
 }
 #about .imp{
@@ -290,7 +290,7 @@ ul#nav li.current a { color: #F06000; }
 
 #publications {
    background: #fff;
-   padding-top: 50px;
+   padding-top: 10px;
    padding-bottom: 2px;
    overflow: hidden;
    color: #206880;
@@ -320,7 +320,7 @@ font: 30px/34px 'opensans-bold', sans-serif;
 
 .publications {
    margin-bottom: 48px;
-   padding-bottom: 24px;
+   padding-bottom: 10px;
 }
 #publications .info {
    font: 16px/24px 'librebaskerville-italic', serif;
@@ -350,7 +350,6 @@ font: 30px/34px 'opensans-bold', sans-serif;
 
 #timeline {
    background: #fff;
-   padding-top: 50px;
    padding-bottom: 2px;
    overflow: hidden;
    color: #206880;
@@ -380,7 +379,7 @@ font: 30px/34px 'opensans-bold', sans-serif;
 
 .timeline {
    margin-bottom: 48px;
-   padding-bottom: 24px;
+   padding-bottom: 10px;
 }
 #timeline .info {
    font: 16px/24px 'librebaskerville-italic', serif;
@@ -411,7 +410,7 @@ font: 30px/34px 'opensans-bold', sans-serif;
 
 #education {
    background: #fff;
-   padding-top: 50px;
+   padding-top: 10px;
    padding-bottom: 2px;
    overflow: hidden;
    color: #206880;
@@ -442,7 +441,7 @@ font: 30px/34px 'opensans-bold', sans-serif;
 
 .education, .work {
    margin-bottom: 48px;
-   padding-bottom: 24px;
+   padding-bottom: 10px;
 }
 #education .info {
    font: 16px/24px 'librebaskerville-italic', serif;
@@ -474,7 +473,7 @@ font: 30px/34px 'opensans-bold', sans-serif;
 
 #experience {
    background: #fff;
-   padding-top: 20px;
+   padding-top: 10px;
    padding-bottom: 2px;
    overflow: hidden;
    color: #206880;
@@ -505,7 +504,7 @@ font: 30px/34px 'opensans-bold', sans-serif;
 
 .education, .work {
    margin-bottom: 48px;
-   padding-bottom: 24px;
+   padding-bottom: 10px;
 }
 #experience .info {
    font: 16px/24px 'librebaskerville-italic', serif;
@@ -537,7 +536,7 @@ font: 30px/34px 'opensans-bold', sans-serif;
 #portfolio {
    background: #ebeeee;
    padding-top: 90px;
-   padding-bottom: 60px;
+   padding-bottom: 10px;
 }
 #portfolio h1 {
    font: 30px/34px 'opensans-semibold', sans-serif;
@@ -795,8 +794,8 @@ font: 30px/34px 'opensans-bold', sans-serif;
 
 #contact {
    background: #206880;
-   padding-top: 96px;
-   padding-bottom: 102px;
+   padding-top: 10px;
+   padding-bottom: 10px;
    color: #FFFFFF;
 }
 #contact .section-head { margin-bottom: 42px; }
@@ -932,7 +931,7 @@ font: 30px/34px 'opensans-bold', sans-serif;
 
 footer {
    background: #FFF;
-   padding-top: 48px;
+   padding-top: 10px;
    margin-bottom: 48px;
    font-size: 14px;
    text-align: center;
