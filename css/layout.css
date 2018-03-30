@@ -173,7 +173,7 @@ ul#nav li.current a { color: #F06000; }
 
 #about {
    background: #fff;
-   padding-top: 96px;
+   padding-top: 40px;
    padding-bottom: 66px;
    overflow: hidden;
 }
@@ -201,6 +201,7 @@ ul#nav li.current a { color: #F06000; }
    position: relative;
    border-radius: 100%;
    border: 3px solid #206880;
+   alignment-adjust: central;
 }
 #about .contact-details { width: 41.66667%; }
 #about .download {
@@ -232,6 +233,8 @@ ul#nav li.current a { color: #F06000; }
    padding-top: 2px;
    padding-bottom: 2px;
    overflow: hidden;
+   padding-left:5%;
+   
 }
 
 #projects a, #projects a:visited  { color: #11ABB0; }
@@ -342,6 +345,66 @@ font: 30px/34px 'opensans-bold', sans-serif;
 #publications p { margin-bottom: 15px; }
 #publications ul span {float:right; }
 #publications ul a {color:#FFAD00; }
+
+/*-------------*/
+
+#timeline {
+   background: #fff;
+   padding-top: 50px;
+   padding-bottom: 2px;
+   overflow: hidden;
+   color: #206880;
+}
+
+#timeline a, #timeline a:visited  { color: #FFAD00; }
+#timeline a:hover, #timeline a:focus { color: #FFAD00; }
+
+#timeline h1 {
+font: 30px/34px 'opensans-bold', sans-serif;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+   color: #206880;
+}
+#timeline h1 span {
+   padding-bottom: 6px;
+   color: #206880;
+}
+#timeline h3 {
+   font: 25px/30px 'opensans-bold', sans-serif;
+   color : #206880;
+
+}
+
+#timeline .header-col { padding-top: 9px; }
+#timeline .main-col { padding-right: 10%; }
+
+.timeline {
+   margin-bottom: 48px;
+   padding-bottom: 24px;
+}
+#timeline .info {
+   font: 16px/24px 'librebaskerville-italic', serif;
+   color: #000;
+}
+#timeline .info span {
+   margin-right: 5px;
+   margin-left: 5px;
+}
+#timeline .date {
+   font: 15px/24px 'opensans-regular', sans-serif;
+   margin-top: 6px;
+}
+#timeline ul {
+    list-style-type: disc;
+    color: white;
+    padding-left: 20px;
+    margin-bottom: 20px;
+
+}
+
+#timeline p { margin-bottom: 15px; }
+#timeline ul span {float:right; }
+#timeline ul a {color:#FFAD00; }
 /* ------------------------------------------------------------------ */
 /* d. education Section
 /* ------------------------------------------------------------------ */
