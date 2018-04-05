@@ -247,15 +247,15 @@ ul#nav li.current a { color: #F06000; }
    color: #FFFFFF;
 }
 #projects h1 span {
-  border-bottom: 3px solid orange;
+
   padding-bottom: 6px;
-  color: #206880;
+  color: DarkBlue ;
 }
 #projects h3 {
    font: 25px/30px 'opensans-bold', sans-serif;
 }
 
-/*#projects .header-col { padding-top: 9px; color: #206880;}*/
+/*#projects .header-col { padding-top: 9px; color: MediumSeaGreen;}*/
 /*#projects .main-col { padding-right: 10%; }*/
 
 .education, .work {
@@ -293,7 +293,7 @@ ul#nav li.current a { color: #F06000; }
    padding-top: 10px;
    padding-bottom: 2px;
    overflow: hidden;
-   color: #206880;
+   color: MediumSeaGreen;
 }
 
 #publications a, #publications a:visited  { color: #FFAD00; }
@@ -303,15 +303,15 @@ ul#nav li.current a { color: #F06000; }
 font: 30px/34px 'opensans-bold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 1px;
-   color: #206880;
+   color: MediumSeaGreen;
 }
 #publications h1 span {
    padding-bottom: 6px;
-   color: #206880;
+   color: MediumSeaGreen;
 }
 #publications h3 {
    font: 25px/30px 'opensans-bold', sans-serif;
-   color : #206880;
+   color : MediumSeaGreen;
 
 }
 
@@ -362,16 +362,16 @@ font: 30px/34px 'opensans-bold', sans-serif;
 font: 30px/34px 'opensans-bold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 1px;
-   color: #206880;
+   color: MediumSeaGreen;
 }
 #timeline h1 span {
    padding-bottom: 6px;
-   color: #206880;
+   color: MediumSeaGreen;
    border-bottom: 3px solid orange;
 }
 #timeline h3 {
    font: 25px/30px 'opensans-bold', sans-serif;
-   color : #206880;
+   color : MediumSeaGreen;
 
 }
 
@@ -414,7 +414,7 @@ font: 30px/34px 'opensans-bold', sans-serif;
    padding-top: 10px;
    padding-bottom: 2px;
    overflow: hidden;
-   color: #206880;
+   color: MediumSeaGreen;
 }
 
 #education a, #education a:visited  { color: #FFAD00; }
@@ -424,16 +424,16 @@ font: 30px/34px 'opensans-bold', sans-serif;
 font: 30px/34px 'opensans-bold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 1px;
-   color: #206880;
+   color: MediumSeaGreen;
 }
 #education h1 span {
    padding-bottom: 6px;
-   color: #206880;
+   color: MediumSeaGreen;
    border-bottom: 3px solid orange;
 }
 #education h3 {
    font: 25px/30px 'opensans-bold', sans-serif;
-   color : #206880;
+   color : MediumSeaGreen;
 
 }
 
@@ -477,7 +477,7 @@ font: 30px/34px 'opensans-bold', sans-serif;
    padding-top: 10px;
    padding-bottom: 2px;
    overflow: hidden;
-   color: #206880;
+   color: MediumSeaGreen;
 }
 
 #experience a, #experience a:visited  { color: #FFAD00; }
@@ -487,16 +487,16 @@ font: 30px/34px 'opensans-bold', sans-serif;
 font: 30px/34px 'opensans-bold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 1px;
-   color: #206880;
+   color: MediumSeaGreen;
 }
 #experience h1 span {
    padding-bottom: 6px;
-   color: #206880;
+   color: MediumSeaGreen;
    border-bottom: 3px solid orange;
 }
 #experience h3 {
    font: 25px/30px 'opensans-bold', sans-serif;
-   color : #206880;
+   color : MediumSeaGreen;
 
 }
 
@@ -794,7 +794,7 @@ font: 30px/34px 'opensans-bold', sans-serif;
 /* ------------------------------------------------------------------ */
 
 #contact {
-   background: #206880;
+   background: MediumSeaGreen;
    padding-top: 10px;
    padding-bottom: 10px;
    color: #FFFFFF;
@@ -960,7 +960,7 @@ footer .copyright li:before {
     content: "\2022";
     padding-left: 10px;
     padding-right: 10px;
-    color: #095153;
+    /*color: #095153;*/
 }
 footer .copyright  li:first-child:before {
     display: none;
@@ -1089,4 +1089,20 @@ table th {
   table td:last-child {
     border-bottom: 0;
   }
+}
+
+hr.soft {
+  border: 0;
+  height: 1px;
+  background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(255,153,0,0.75), rgba(0,0,0,0));
+  background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+  background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+  background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+  padding: 0;
+  margin: 0;
+}
+
+u {    
+    border-bottom: 2px dotted brown;
+    text-decoration: none;
 }
