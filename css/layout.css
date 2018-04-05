@@ -174,8 +174,9 @@ ul#nav li.current a { color: #F06000; }
 #about {
    background: #fff;
    padding-top: 40px;
-   padding-bottom: 10px;
+   padding-bottom: 20px;
    overflow: hidden;
+   width: 100%;
 }
 #about .imp{
    border-bottom: 1px dashed #fff;
@@ -200,7 +201,6 @@ ul#nav li.current a { color: #F06000; }
 #about .profile-pic {
    position: relative;
    border-radius: 100%;
-   border: 3px solid #206880;
    alignment-adjust: central;
 }
 #about .contact-details { width: 41.66667%; }
@@ -1009,3 +1009,84 @@ footer .copyright  li:first-child:before {
    border-radius: 100%;
 }
 #go-top a:hover { background-color: #0F9095; }
+
+timeline .table {
+  border: 1px solid #ccc;
+  border-collapse: collapse;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  table-layout: fixed;
+}
+
+table caption {
+  font-size: 1.5em;
+  margin: .5em 0 .75em;
+}
+
+table tr {
+  background-color: #f8f8f8;
+  border: 1px solid #ddd;
+  padding: .35em;
+}
+
+table th,
+table td {
+  padding: .625em;
+  text-align: center;
+}
+
+table th {
+  font-size: .85em;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 600px) {
+  table {
+    border: 0;
+  }
+
+  table caption {
+    font-size: 1.3em;
+  }
+  
+  table thead {
+    border: none;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+  }
+  
+  table tr {
+    border-bottom: 3px solid #ddd;
+    display: block;
+    margin-bottom: .625em;
+  }
+  
+  table td {
+    border-bottom: 1px solid #ddd;
+    display: block;
+    font-size: .8em;
+    text-align: right;
+  }
+  
+  table td::before {
+    /*
+    * aria-label has no advantage, it won't be read inside a table
+    content: attr(aria-label);
+    */
+    content: attr(data-label);
+    float: left;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  table td:last-child {
+    border-bottom: 0;
+  }
+}
