@@ -367,7 +367,6 @@ font: 30px/34px 'opensans-bold', sans-serif;
 #timeline h1 span {
    padding-bottom: 6px;
    color: DarkBlue;
-   border-bottom: 3px solid orange;
 }
 #timeline h3 {
    font: 25px/30px 'opensans-bold', sans-serif;
