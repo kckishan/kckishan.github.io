@@ -382,7 +382,7 @@ font: 30px/34px 'opensans-bold', sans-serif;
    margin-bottom: 48px;
    padding-bottom: 10px;
 }
-#timeline .info {
+#timeline .info { 
    font: 16px/24px 'librebaskerville-italic', serif;
    color: #000;
 }
