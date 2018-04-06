@@ -1010,7 +1010,7 @@ footer .copyright  li:first-child:before {
 }
 #go-top a:hover { background-color: #0F9095; }
 
-timeline .table {
+.table {
   border: 1px solid #ccc;
   border-collapse: collapse;
   margin: 0;
@@ -1034,6 +1034,7 @@ table th,
 table td {
   padding: .625em;
   text-align: center;
+  word-wrap:break-word;
 }
 
 table th {
@@ -1072,7 +1073,7 @@ table th {
     border-bottom: 1px solid #ddd;
     display: block;
     font-size: .8em;
-    text-align: right;
+    /*text-align: right;*/
   }
   
   table td::before {
