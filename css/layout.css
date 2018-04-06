@@ -173,11 +173,10 @@ ul#nav li.current a { color: #F06000; }
 
 #about {
    background: #fff;
-   padding-top: 40px;
-   padding-bottom: 20px;
+   padding-top: 2%;
+   padding-bottom: 1%;
    overflow: hidden;
    width: 100%;
-   /*padding-left: 5%;*/
 }
 /*#about .imp{
    border-bottom: 1px dashed #fff;
@@ -231,8 +230,8 @@ ul#nav li.current a { color: #F06000; }
 
 #projects {
    background: #FFF;
-   padding-top: 2px;
-   padding-bottom: 2px;
+   padding-top: 2%;
+   /*padding-bottom: 1%;*/
    overflow: hidden;
    padding-left:5%;
    
@@ -351,7 +350,7 @@ font: 30px/34px 'opensans-bold', sans-serif;
 
 #timeline {
    background: #fff;
-   padding-bottom: 2px;
+   /*padding-bottom: 2px;*/
    overflow: hidden;
    color: #000;
    padding-left: 5%;
