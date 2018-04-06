@@ -178,9 +178,9 @@ ul#nav li.current a { color: #F06000; }
    overflow: hidden;
    width: 100%;
 }
-#about .imp{
+/*#about .imp{
    border-bottom: 1px dashed #fff;
-}
+}*/
 
 #about .highlight{
    color: #FFAD00;
