@@ -173,8 +173,7 @@ ul#nav li.current a { color: #F06000; }
 
 #about {
    background: #fff;
-   padding-top: 40px;
-   padding-bottom: 20px;
+   padding: 5%;
    overflow: hidden;
    width: 100%;
 }
@@ -353,6 +352,7 @@ font: 30px/34px 'opensans-bold', sans-serif;
    padding-bottom: 2px;
    overflow: hidden;
    color: #000;
+   padding: 5%;
 }
 
 #timeline a, #timeline a:visited  { color: #FFAD00; }
