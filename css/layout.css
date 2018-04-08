@@ -242,14 +242,14 @@ ul#nav li.current a { color: #F06000; }
 
 #projects h1 {
    font: 30px/34px 'opensans-bold', sans-serif;
-   text-transform: uppercase;
+   /*text-transform: uppercase;*/
    letter-spacing: 1px;
    color: #FFFFFF;
 }
 #projects h1 span {
 
   padding-bottom: 6px;
-  color: DarkBlue ;
+  color: black ;
 }
 #projects h3 {
    font: 25px/30px 'opensans-bold', sans-serif;
@@ -361,17 +361,17 @@ font: 30px/34px 'opensans-bold', sans-serif;
 
 #timeline h1 {
 font: 30px/34px 'opensans-bold', sans-serif;
-   text-transform: uppercase;
+   /*text-transform: uppercase;*/
    letter-spacing: 1px;
-   color: DarkBlue;
+   color: black;
 }
 #timeline h1 span {
    padding-bottom: 6px;
-   color: DarkBlue;
+   color: black;
 }
 #timeline h3 {
    font: 25px/30px 'opensans-bold', sans-serif;
-   color : DarkBlue;
+   color : black;
 
 }
 
