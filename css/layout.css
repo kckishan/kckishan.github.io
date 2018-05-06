@@ -280,7 +280,6 @@ ul#nav li.current a { color: #F06000; }
 #projects ul {
     list-style-type: disc;
     color: #34495e;
-    padding-left: 20px;
     margin-bottom: 20px;
 }
 #projects p info { margin: 0 0 15px 0; }
