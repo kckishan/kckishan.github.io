@@ -454,7 +454,7 @@ img.pull-left { margin: 12px 18px 0px 0px; }
 
 /*  6. Buttons  --------------------------------------------------------- */
 
-.button,
+/*.button,
 .button:visited,
 button,
 input[type="submit"],
@@ -514,12 +514,12 @@ input[type="button"].full-width {
 }
 
 /* Fix for odd Mozilla border & padding issues */
-button::-moz-focus-inner,
+/*button::-moz-focus-inner,
 input::-moz-focus-inner {
     border: 0;
     padding: 0;
 }
-
+*/
 
 /*  7. Forms  --------------------------------------------------------- */
 
@@ -633,7 +633,7 @@ input[type="checkbox"] { display: inline; }
 /* column widths */
 .row .one         { width: 8.33333%; }
 .row .two         { width: 16.66667%; }
-.row .three       { width: 25%; }
+.row .three       { width: 23%; }
 .row .four        { width: 33.33333%; }
 .row .five        { width: 41.66667%; }
 .row .six         { width: 50%; }
@@ -800,5 +800,26 @@ properly.
 }
 
 
+.collapsible {
+    /*background-color: #FF9F00;
+    color: black;
+    cursor: pointer;
+    padding: 5px;
+    width: 200px;
+    border: none;
+    text-align: center;
+    outline: none;
+    font-size: 15px;*/
+}
 
+.active, .collapsible:hover {
+    /*background-color: #FF7900;*/
+}
+
+.content {
+    padding: 10px;
+    display: none;
+    overflow: hidden;
+    background-color: white;
+}
 
