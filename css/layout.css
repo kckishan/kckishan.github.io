@@ -243,7 +243,7 @@ ul#nav li.current a { color: #F06000; }
 
 #projects h1 {
    font: 30px/34px 'opensans-bold', sans-serif;
-   /*text-transform: uppercase;*/
+   text-transform: uppercase;
    letter-spacing: 1px;
    color: #FFFFFF;
 }
@@ -358,6 +358,8 @@ font: 30px/34px 'opensans-bold', sans-serif;
    /*text-transform: uppercase;*/
    letter-spacing: 1px;
    color: black;
+   
+   text-transform: uppercase;
 }
 #timeline h1 span {
    padding-bottom: 6px;
