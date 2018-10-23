@@ -1122,13 +1122,12 @@ u {
     padding: 5px;
     /*margin: 1px 2px;*/
     display: inline-block;
-    color: brown;
+    color: darkblue;
 }
 
 .puba {
     font-size: 16px;
-    font-weight: 600;
-    color: #900;
+    color: #000;
 }
 
 .pubt {
@@ -1143,6 +1142,5 @@ u {
 }
 .pubv {
     font-size: 16px;
-    font-weight: 600;
-    color: darkgreen;
+    color: #000;
 }
