@@ -242,8 +242,8 @@ ul#nav li.current a { color: #F06000; }
 #projects a:hover, #projects a:focus { color: #313131; }
 
 #projects h1 {
-   font: 30px/34px 'opensans-bold', sans-serif;
-   text-transform: uppercase;
+   /*font: 30px/34px 'opensans-bold', sans-serif;*/
+   /*text-transform: uppercase;*/
    letter-spacing: 1px;
    color: #FFFFFF;
 }
@@ -294,14 +294,15 @@ ul#nav li.current a { color: #F06000; }
    padding-bottom: 2px;
    overflow: hidden;
    color: black;
+   padding-left: 5%;
 }
 
 #publications a, #publications a:visited  { color: #FFAD00; }
 #publications a:hover, #publications a:focus { color: #FFAD00; }
 
 #publications h1 {
-font: 30px/34px 'opensans-bold', sans-serif;
-   text-transform: uppercase;
+/*font: 30px/34px 'opensans-bold', sans-serif;*/
+   /*text-transform: uppercase;*/
    letter-spacing: 1px;
    color: black;
 }
@@ -354,12 +355,12 @@ font: 30px/34px 'opensans-bold', sans-serif;
 #timeline a:hover, #timeline a:focus { color: #FFAD00; }
 
 #timeline h1 {
-font: 30px/34px 'opensans-bold', sans-serif;
+/*font: 30px/34px 'opensans-bold', sans-serif;*/
    /*text-transform: uppercase;*/
    letter-spacing: 1px;
    color: black;
    
-   text-transform: uppercase;
+   /*text-transform: uppercase;*/
 }
 #timeline h1 span {
    padding-bottom: 6px;
@@ -417,8 +418,8 @@ font: 30px/34px 'opensans-bold', sans-serif;
 #education a:hover, #education a:focus { color: #FFAD00; }
 
 #education h1 {
-font: 30px/34px 'opensans-bold', sans-serif;
-   text-transform: uppercase;
+/*font: 30px/34px 'opensans-bold', sans-serif;*/
+   /*text-transform: uppercase;*/
    letter-spacing: 1px;
    color: MediumSeaGreen;
 }
@@ -480,8 +481,8 @@ font: 30px/34px 'opensans-bold', sans-serif;
 #experience a:hover, #experience a:focus { color: #FFAD00; }
 
 #experience h1 {
-font: 30px/34px 'opensans-bold', sans-serif;
-   text-transform: uppercase;
+/*font: 30px/34px 'opensans-bold', sans-serif;*/
+   /*text-transform: uppercase;*/
    letter-spacing: 1px;
    color: MediumSeaGreen;
 }
@@ -536,7 +537,7 @@ font: 30px/34px 'opensans-bold', sans-serif;
    padding-bottom: 10px;
 }
 #portfolio h1 {
-   font: 30px/34px 'opensans-semibold', sans-serif;
+   /*font: 30px/34px 'opensans-semibold', sans-serif;*/
    text-transform: uppercase;
    letter-spacing: 1px;
    text-align: center;
@@ -801,8 +802,8 @@ font: 30px/34px 'opensans-bold', sans-serif;
 #contact a:hover, #contact a:focus { color: #fff; }
 
 #contact h1 {
-   font: 18px/24px 'opensans-bold', sans-serif;
-   text-transform: uppercase;
+   /*font: 18px/24px 'opensans-bold', sans-serif;*/
+   /*text-transform: uppercase;*/
    letter-spacing: 3px;
    color: #EBEEEE;
    margin-bottom: 6px;
@@ -1060,7 +1061,7 @@ table th {
   }
   
   table tr {
-    border-bottom: 3px solid #ddd;
+    border-bottom: 1px solid #ddd;
     display: block;
     margin-bottom: .625em;
   }
@@ -1119,20 +1120,23 @@ u {
 }
 .publ li {
     border: 1px solid #CCC;
-    padding: 5px;
+    padding: 3px;
     /*margin: 1px 2px;*/
     display: inline-block;
-    color: darkblue;
+    color: rgb(127,140,180);
+    border-radius: 5px;
 }
-
+.publ li:hover { 
+    background-color: #ccebff;
+}
 .puba {
     font-size: 16px;
     color: #000;
 }
 
 .pubt {
-    font-size: 20px;
-    font-weight: 600;
+    font-size: 18px;
+    font-weight: 300;
     color: MidnightBlue;
 }
 
