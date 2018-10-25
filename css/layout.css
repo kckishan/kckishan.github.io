@@ -124,6 +124,7 @@ about .scrolldown a:hover { color: #11ABB0; }
    position: fixed;
    left: 0;
    top: 0;
+   background-color: #F0F3F4;
 }
 .opaque { background-color: #333; }
 
@@ -230,7 +231,7 @@ ul#nav li.current a { color: #F06000; }
 
 #projects {
    background: #FFF;
-   padding-top: 2%;
+   /*padding-top: 2%;*/
    /*padding-bottom: 1%;*/
    overflow: hidden;
    padding-left:5%;
@@ -320,7 +321,7 @@ ul#nav li.current a { color: #F06000; }
 /*#publications .main-col { padding-right: 10%; }*/
 
 .publications {
-   margin-bottom: 48px;
+   /*margin-bottom: 48px;*/
    padding-bottom: 10px;
 }
 #publications .info {
