@@ -124,6 +124,7 @@ about .scrolldown a:hover { color: #11ABB0; }
    position: fixed;
    left: 0;
    top: 0;
+   background-color: #F0F3F4;
 }
 .opaque { background-color: #333; }
 
@@ -154,7 +155,7 @@ ul#nav li a {
    line-height: 32px;
    text-decoration: none;
    text-align: left;
-   color: #fff;
+   /*color: #fff;*/
 
    -webkit-transition: color .2s ease-in-out;
    -moz-transition: color .2s ease-in-out;
@@ -185,8 +186,8 @@ ul#nav li.current a { color: #F06000; }
 #about .highlight{
    color: #FFAD00;
 }
-#about a, #about a:visited  { color: #000; }
-#about a:hover, #about a:focus { color: #000; }
+#about a, #about a:visited  { color: #691B0A; }
+#about a:hover, #about a:focus { color: Green; }
 
 #about h2 {
    font: 22px/30px 'opensans-bold', sans-serif;
@@ -230,7 +231,7 @@ ul#nav li.current a { color: #F06000; }
 
 #projects {
    background: #FFF;
-   padding-top: 2%;
+   /*padding-top: 2%;*/
    /*padding-bottom: 1%;*/
    overflow: hidden;
    padding-left:5%;
@@ -320,7 +321,7 @@ ul#nav li.current a { color: #F06000; }
 /*#publications .main-col { padding-right: 10%; }*/
 
 .publications {
-   margin-bottom: 48px;
+   /*margin-bottom: 48px;*/
    padding-bottom: 10px;
 }
 #publications .info {

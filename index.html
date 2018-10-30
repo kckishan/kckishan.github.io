@@ -19,9 +19,9 @@
     <body>
 
         <section id="about">
-            <div class="row">
-                <div class="four columns" style="padding-left: 2.5%; padding-top:3%;">
-                    <center><img class="profile-pic" src="images/pic.jpg" width="50%" height="50%"  alt="" /></center>
+            <div class="row" style="padding-top:3%;">
+                <div class="four columns">
+                    <center style="padding:5%;"><img class="profile-pic" src="images/pic.jpg" width="50%" height="50%"  alt="" /></center>
 					<center><h1 style="color: #691B0A; padding-top: 2%; letter-spacing: 1px;">Kishan KC</h1></center>
 					<center><p>Ph.D. Candidate</p></center>
                     <center><p >Golisano College of Computing and <br/>Information Sciences (GCCIS)</p></center>
@@ -35,9 +35,16 @@
 		                    <li><a  target="_blank" href="https://www.linkedin.com/in/kishankc" target="_blank"><i class="fa fa-linkedin"></i></a></li>
 	                	</ul>
                 	</center>
-                   
+                    <nav id="nav-wrap">
+                     <ul id="nav" class="nav">
+                        <li class="current"><a class="smoothscroll" href="#about">Home</a></li>
+                         <li><a class="smoothscroll" href="#timeline">Recent news</a></li>
+                        <li><a class="smoothscroll" href="#publications">Publications</a></li>
+                        <li><a class="smoothscroll" href="#projects">Projects</a></li>
+                     </ul> <!-- end #nav -->
+                  </nav> <!-- end #nav-wrap -->
                 </div>
-               <div class="eight columns main-col" style="padding-left: 2.5%;">
+               <div class="eight columns main-col">
                 <center><h1 ><span>About me</span></h1></center>
                 <hr class="soft">
                    <p> 
@@ -55,18 +62,16 @@
                         Graph Representation Learning, Graph Neural Networks, Heterogeneous Data Integration, Computational Biology
                         </span>
                     </p>
-                    <br/>
-                    <br/>
+                    
                </div>
-                 <hr class="soft">
+               <br/>
+                <hr class="soft">
+                <br/>
             </div>
-            <hr class="soft">
         </section>
 
 		<section id="timeline">
 			<div class="row timeline">
-	            <!-- <div class="row"> -->
-					<br/>
 					<center style="padding-bottom: 10px;">
                     	<h1 ><span >Recent news</span></h1>
                 	</center>
@@ -131,7 +136,7 @@
 		                        <div class="pubt">GNE: A deep learning framework for gene network inference by aggregating biological information</div>
 		                          <!-- <div class="pubd">We present a model that integrates topological properties of gene network and gene expression data to learn representations for gene. These low-dimensional representations derive deeper insights into the structure of rapidly accumulating and diverse gene interaction networks and greatly simplify downstream modeling. Our analysis shows that these learned representations achieve significantly more accurate gene interaction predictions. </div> -->
 		                        <div class="puba">Kishan KC, Rui Li, Feng Cui, Qi Yu, Anne Haake</div>
-                                <div class="pubv">APBC 2019 (to appear)</div>
+                                <div class="pubv">BMC Systems Biology/APBC 2019 (to appear)</div>
 		                        <div class="publ">
 		                            <ul>
 		                                <li><a target="_blank" style="color: #500;" href="https://www.biorxiv.org/content/early/2018/04/13/300996">PDF</a></li>
@@ -253,23 +258,20 @@
             	<li>Tourist Visits Trend Visualization</li>
             </ul>
             <hr class="soft">
+            <br/>
+            <br/>
         </section>
-        <script>
-            var coll = document.getElementsByClassName("collapsible");
-            var i;
+        <!-- Java Script
+        ================================================== -->
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
+        <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
 
-            for (i = 0; i < coll.length; i++) {
-              coll[i].addEventListener("click", function() {
-                this.classList.toggle("active");
-                var content = this.nextElementSibling;
-                if (content.style.display === "block") {
-                  content.style.display = "none";
-                } else {
-                  content.style.display = "block";
-                }
-              });
-            }
-        </script>
+        <script src="js/jquery.flexslider.js"></script>
+        <script src="js/waypoints.js"></script>
+        <script src="js/jquery.fittext.js"></script>
+        <script src="js/magnific-popup.js"></script>
+        <script src="js/init.js"></script>
     </body>
 
 </html>
