@@ -1131,21 +1131,22 @@ u {
     background-color: #ccebff;
 }
 .puba {
-    font-size: 16px;
-    color: #000;
+    font-size: 14px;
+    color:brown;
 }
 
 .pubt {
-    font-size: 18px;
-    font-weight: 300;
-    color: MidnightBlue;
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+
 }
 
 .pubd {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 300;
 }
 .pubv {
-    font-size: 16px;
-    color: #000;
+    font-size: 14px;
+    color: green;
 }
