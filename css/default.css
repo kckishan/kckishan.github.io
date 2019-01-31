@@ -137,7 +137,7 @@ table {
 }
 
 html {
-   font-size: 62.5%;
+   font-size: 50%;
    -webkit-font-smoothing: antialiased;
 }
 
@@ -145,7 +145,7 @@ body {
    background: #fff;
    font-family: 'opensans-regular', sans-serif;
    font-weight: normal;
-   font-size: 14px;
+   font-size: 12px;
    /*line-height: 30px;*/
    -webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
 	-webkit-text-size-adjust: 100%;

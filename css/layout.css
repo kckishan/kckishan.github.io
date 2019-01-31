@@ -190,7 +190,7 @@ ul#nav li.current a { color: #F06000; }
 #about a:hover, #about a:focus { color: Green; }
 
 #about h2 {
-   font: 22px/30px 'opensans-bold', sans-serif;
+   /*font: 22px/30px 'opensans-bold', sans-serif;*/
    color: #FFFFFF;
    margin-bottom: 12px;
 }
@@ -1121,24 +1121,28 @@ u {
 }
 .publ li {
     border: 1px solid #CCC;
-    padding: 3px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 0.4%;
+    padding-bottom: 0.4%;
     /*margin: 1px 2px;*/
     display: inline-block;
-    color: rgb(127,140,180);
+    color: orangered;
     border-radius: 5px;
+    font-size: 14px;
 }
 .publ li:hover { 
     background-color: #ccebff;
 }
 .puba {
-    font-size: 14px;
-    color:brown;
+    font-size: 15px;
+    color:black;
 }
 
 .pubt {
     font-size: 16px;
-    font-weight: 600;
-    color: black;
+    /*font-weight: 800;*/
+    /*color:SteelBlue;*/
 
 }
 
@@ -1148,5 +1152,6 @@ u {
 }
 .pubv {
     font-size: 14px;
-    color: green;
+    color: black;
+    font-style: italic;
 }
