@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Talks on Kishan KC</title>
+    <link>http://kishankc.com.np/talk/</link>
+    <description>Recent content in Talks on Kishan KC</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 16 Jan 2019 00:00:00 -0500</lastBuildDate>
+    
+	<atom:link href="http://kishankc.com.np/talk/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Gene Network Embedding</title>
+      <link>http://kishankc.com.np/talk/gene-network-embedding/</link>
+      <pubDate>Wed, 16 Jan 2019 00:00:00 -0500</pubDate>
+      
+      <guid>http://kishankc.com.np/talk/gene-network-embedding/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Deep Learning on Graphs</title>
+      <link>http://kishankc.com.np/talk/graph-learning/</link>
+      <pubDate>Mon, 15 Oct 2018 00:00:00 -0400</pubDate>
+      
+      <guid>http://kishankc.com.np/talk/graph-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tensorflow Basics</title>
+      <link>http://kishankc.com.np/talk/tensorflow-basics/</link>
+      <pubDate>Wed, 10 Oct 2018 00:00:00 -0400</pubDate>
+      
+      <guid>http://kishankc.com.np/talk/tensorflow-basics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Intoduction to Neural Networks</title>
+      <link>http://kishankc.com.np/talk/deep-learning/</link>
+      <pubDate>Mon, 09 Apr 2018 00:00:00 -0400</pubDate>
+      
+      <guid>http://kishankc.com.np/talk/deep-learning/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

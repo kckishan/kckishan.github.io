@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>computational-biology on Kishan KC</title>
+    <link>http://kishankc.com.np/tags/computational-biology/</link>
+    <description>Recent content in computational-biology on Kishan KC</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 09 Jan 2019 00:00:00 -0500</lastBuildDate>
+    
+	<atom:link href="http://kishankc.com.np/tags/computational-biology/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Gene Network Embedding</title>
+      <link>http://kishankc.com.np/project/gene-network-embedding/</link>
+      <pubDate>Wed, 09 Jan 2019 00:00:00 -0500</pubDate>
+      
+      <guid>http://kishankc.com.np/project/gene-network-embedding/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GRN Reconstruction with Ensemble SVM</title>
+      <link>http://kishankc.com.np/project/grn-svm/</link>
+      <pubDate>Fri, 19 May 2017 00:00:00 -0400</pubDate>
+      
+      <guid>http://kishankc.com.np/project/grn-svm/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
