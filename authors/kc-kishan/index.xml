@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>KC Kishan on Kishan KC</title>
+    <link>http://kishankc.com.np/authors/kc-kishan/</link>
+    <description>Recent content in KC Kishan on Kishan KC</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 08 Nov 2018 00:00:00 -0500</lastBuildDate>
+    
+	<atom:link href="http://kishankc.com.np/authors/kc-kishan/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>A deep framework for aggregating heterogeneous biological information for gene network inference</title>
+      <link>http://kishankc.com.np/poster/content/publication/kishan-2018-gne/</link>
+      <pubDate>Thu, 08 Nov 2018 00:00:00 -0500</pubDate>
+      
+      <guid>http://kishankc.com.np/poster/content/publication/kishan-2018-gne/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GNE: A deep learning framework for gene network inference by aggregating biological information</title>
+      <link>http://kishankc.com.np/publication/content/publication/kishan-2018-gne/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 -0500</pubDate>
+      
+      <guid>http://kishankc.com.np/publication/content/publication/kishan-2018-gne/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sparse covariance modeling in high dimensions with gaussian processes</title>
+      <link>http://kishankc.com.np/publication/content/publication/li-2018-sparse/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 -0500</pubDate>
+      
+      <guid>http://kishankc.com.np/publication/content/publication/li-2018-sparse/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
