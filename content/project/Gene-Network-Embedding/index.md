@@ -19,7 +19,7 @@ summary = "GNE integrates gene interaction network with gene expression data to 
 slides = ""
 
 # Optional external URL for project (replaces project detail page).
-external_link = "http://kishankc.com.np/GNE"
+external_link = "https://kckishan.github.io/GNE/"
 
 # Links (optional).
 url_pdf = ""
