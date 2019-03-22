@@ -3,7 +3,7 @@ title = "A deep framework for aggregating heterogeneous biological information f
 date = 2018-11-08
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["KC Kishan", "Rui Li", "Feng Cui", "Qi Yu", "Anne Haake"]
+authors = ["Kishan KC", "Rui Li", "Feng Cui", "Qi Yu", "Anne Haake"]
 
 # Poster start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
