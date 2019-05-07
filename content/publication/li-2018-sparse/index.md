@@ -1,5 +1,5 @@
 +++
-title = "Sparse covariance modeling in high dimensions with gaussian processes"
+title = "Sparse covariance modeling in high dimensions with gaussian processes (Spotlight Presentation)"
 date = 2018-01-01
 authors = ["Rui Li", "Kishan KC", "Feng Cui", "Justin Domke", "Anne Haake"]
 publication_types = ["1"]
