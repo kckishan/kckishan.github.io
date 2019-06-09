@@ -1,5 +1,5 @@
 +++
-title = "ParallelBFS"
+title = "The Die Hard Riddle"
 date = 2018-02-20T19:16:43-05:00
 draft = false
 
