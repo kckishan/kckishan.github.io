@@ -1,5 +1,5 @@
 +++
-title = "The Die Hard Riddle"
+title = "Parallel Breadth First Search in Cluster"
 date = 2018-02-20T19:16:43-05:00
 draft = false
 

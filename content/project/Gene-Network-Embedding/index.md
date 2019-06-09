@@ -8,7 +8,7 @@ draft = false
 tags = ["graph-representation-learning", "deep-learning", "gene-interaction-networks","computational-biology"]
 
 # Project summary to display on homepage.
-summary = "GNE integrates gene interaction network with gene expression data to learn a more informative representations for gene network."
+summary = ""
 
 # Slides (optional).
 #   Associate this page with Markdown slides.
