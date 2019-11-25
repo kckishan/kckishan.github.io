@@ -23,9 +23,7 @@ email = "kk3671@rit.edu"
 
 # List (academic) interests or hobbies
 interests = [
-    "Graph Representation Learning", 
-    "Graph Neural Networks", 
-    "Machine Learning",
+    "Data Science",
     "Deep Learning",
     "Computational Biology"
 ]
@@ -84,6 +82,8 @@ interests = [
 
 +++
 
-I am a third year Ph.D. student in Computing and Information Science at the Golisano College of Computing and Information Sciences, Rochester Institute of Technology (RIT) . I am a Graduate Research Assistant under the supervision of Prof. Anne Haake and Prof. Rui Li.
+I am a fourth year Ph.D. student in Computing and Information Science at the Golisano College of Computing and Information Sciences, Rochester Institute of Technology (RIT) . I am a Graduate Research Assistant under the supervision of Prof. Anne Haake and Prof. Rui Li.
 
-My research interests lie at the intersection of machine learning and network science, with a current emphasis on graph representation learning, graph neural networks and their application to computational biology. 
+The main focus of my research is developing machine/deep learning approaches to integrate diverse biological data for genetic interaction network inference and gene function predictions. I have experience working with various deep learning methods like Deep Neural Networks (DNN), Convolutional Neural Networks (CNN),  Recurrent Neural Networks (RNN), Graph Neural Networks (GNN), and Graph Embeddings.
+
+My current research focus is to **learn neural network architectures with Bayesian Nonparametrics**.

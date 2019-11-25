@@ -20,6 +20,14 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[item]]
+  title = "Best Oral Presentation Award"
+  organization = "RIT Graduate Showcase, 2019"
+  certificate_url = ""
+  date_start = "2019-11-23"
+  date_end = ""
+  description = "For presentation titled 'Learning Sparse and Structured Gaussian Embedding of protein sequences using pairwise constraints'"
+
+[[item]]
   title = "PyTorch Scholarship Challenge from Facebook"
   organization = "Udacity"
   certificate_url = ""
