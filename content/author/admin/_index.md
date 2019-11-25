@@ -86,4 +86,4 @@ I am a fourth year Ph.D. student in Computing and Information Science at the Gol
 
 The main focus of my research is developing machine/deep learning approaches to integrate diverse biological data for genetic interaction network inference and gene function predictions. I have experience working with various deep learning methods like Deep Neural Networks (DNN), Convolutional Neural Networks (CNN),  Recurrent Neural Networks (RNN), Graph Neural Networks (GNN), and Graph Embeddings.
 
-My current research focus is to **learn neural network architectures with Bayesian Nonparametrics**.
+My current research focus is to develop novel model selection method to automate choice of deep neural network architectures for effective integration of diverse biological data.
