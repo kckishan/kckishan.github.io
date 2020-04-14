@@ -183,7 +183,6 @@
   {{ partial "head_custom" . }}
 
   <title>{{ if not .IsHome }}{{ .Title }} | {{ end }}{{ .Site.Title }}</title>
-  {{ partial "mathjax_support.html" . }}
   
 </head>
 <body id="top" data-spy="scroll" data-target="{{ if or .IsHome .Params.widgets }}#navbar-main{{ else }}#TableOfContents{{ end }}" data-offset="71" {{ if not ($scr.Get "light") }}class="dark"{{ end }}>
