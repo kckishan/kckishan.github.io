@@ -209,13 +209,13 @@ We further pass these latent representation $z$ through softmax layer that maxim
 
 Softmax layer can be presented as:
 
-$$p(A|B) = \frac{\exp \left(\hat{z}_{A} \cdot z_{B}\right)}{\sum_{i \in N_{g}} \exp \left(\hat{z}_{i} \cdot z_{B}\right)}$$ 
+$$p(A|B) = \frac{\exp(\hat{z}_{A}{\cdot}z_{B})}{\sum_i^{5368}\exp(\hat{z}_{i}{\cdot}z_{B})}$$ 
 
 where $\hat{z}$ is the weights on the softmax layer. 
 
 Computing the denominator of above equation is computationally expensive. So, we adopt the approach of <cite>[negative sampling][1]</cite> which samples the negative interactions, interactions with no evidence of their existence, according to some noise distribution for each interaction. This approach allows us to sample a small subset of genes from the network as negative samples for a gene, considering that the genes on selected subset don’t fall in the neighborhood $N_B$ of the gene. Now, above equation becomes:
 
-$$\frac{\exp \left(\hat{z}_{A} \cdot z_{B}\right)}{\sum_{i \in N_{B}} \exp \left(\hat{z}_{i} \cdot z_{B}\right)}$$
+$$p(A|B) = \frac{\exp(\hat{z}_{A}{\cdot}z_{B})}{\sum_i\exp(\hat{z}_{i}{\cdot}z_{B})}$$
 
 Above objective function enhances the similarity of a gene viwith its neighborhood genes $i \in N_B$ and weakens the similarity with genes not in its neighborhood genes $i \notin N_B$. It is inappropriate to assume that the two genes in the network are not related if they are not connected. It may be the case that there is not enough experimental evidence to support that they are related yet. Thus, forcing the dissimilarity of a gene with all other genes, not in its neighborhood $N_B$ seems to be inappropriate.
 
