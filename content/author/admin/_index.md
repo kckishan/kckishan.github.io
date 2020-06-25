@@ -24,6 +24,7 @@ email = "kk3671@rit.edu"
 # List (academic) interests or hobbies
 interests = [
     "Data Science",
+    "Network Embedding",
     "Deep Learning",
     "Computational Biology"
 ]
@@ -82,8 +83,8 @@ interests = [
 
 +++
 
-I am a fourth year Ph.D. student in Computing and Information Science at the Golisano College of Computing and Information Sciences, Rochester Institute of Technology (RIT) . I am a Graduate Research Assistant under the supervision of Prof. Anne Haake and Prof. Rui Li.
+Kishan KC is a fourth-year Ph.D. student in Computing and Information Science at the Golisano College of Computing and Information Sciences, Rochester Institute of Technology (RIT). I am a Graduate Research Assistant at the Use-Inspired Computational Intelligence (LUCI) Lab under the supervision of Prof. Anne Haake and Prof. Rui Li.
 
-The main focus of my research is developing machine/deep learning approaches to integrate diverse biological data for genetic interaction network inference and gene function predictions. I have experience working with various deep learning methods like Deep Neural Networks (DNN), Convolutional Neural Networks (CNN),  Recurrent Neural Networks (RNN), Graph Neural Networks (GNN), and Graph Embeddings.
+**Research**
+My current research focuses on link prediction in (biomedical) networks using network embedding and neural architecture inference approaches. In general, I am interested in building (or inferring) machine/deep learning approaches to integrate heterogeneous information about biological entities with their graph structure (provided by the known links) to predict the missing links in the networks. 
 
-My current research focus is to develop novel model selection method to automate choice of deep neural network architectures for effective integration of diverse biological data.
