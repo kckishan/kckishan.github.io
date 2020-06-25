@@ -83,8 +83,8 @@ interests = [
 
 +++
 
-Kishan KC is a fourth-year Ph.D. student in Computing and Information Science at the Golisano College of Computing and Information Sciences, Rochester Institute of Technology (RIT). I am a Graduate Research Assistant at the Use-Inspired Computational Intelligence (LUCI) Lab under the supervision of Prof. Anne Haake and Prof. Rui Li.
+Kishan KC is a fourth-year Ph.D. student in Computing and Information Science at the Golisano College of Computing and Information Sciences, Rochester Institute of Technology (RIT). I am a Graduate Research Assistant at the Use-Inspired Computational Intelligence (LUCI) Lab under the supervision of Dr. Anne Haake and Dr. Rui Li.
 
-**Research**
+**Research**\
 My current research focuses on link prediction in (biomedical) networks using network embedding and neural architecture inference approaches. In general, I am interested in building (or inferring) machine/deep learning approaches to integrate heterogeneous information about biological entities with their graph structure (provided by the known links) to predict the missing links in the networks. 
 
