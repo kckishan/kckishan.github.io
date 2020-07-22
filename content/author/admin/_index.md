@@ -16,7 +16,7 @@ role = "PhD Student"
 organizations = [ { name = "Rochester Institute of Technology (RIT)", url = "https://www.rit.edu" } ]
 
 # Short bio (displayed in user profile at end of posts)
-bio = "PhD Student in Machine Learning and Computational Biology"
+bio = "PhD Student in Machine Learning and Network Biology"
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email = "kk3671@rit.edu"
@@ -24,9 +24,9 @@ email = "kk3671@rit.edu"
 # List (academic) interests or hobbies
 interests = [
     "Data Science",
-    "Network Embedding",
+    "Graph Representation Learning",
     "Deep Learning",
-    "Computational Biology"
+    "Network Biology"
 ]
 
 # Organizational groups that you belong to (for People widget)
@@ -34,11 +34,6 @@ interests = [
 #user_groups = ["Researchers", "Visitors"]
 
 # List qualifications (such as academic degrees)
-[[education.courses]]
-  course = "PhD in Computing and Information Sciences"
-  institution = "Rochester Institute of Technology"
-  year = ""
-
 [[education.courses]]
   course = "BE in Computer Engineering"
   institution = "Institute of Engineering"
@@ -83,8 +78,8 @@ interests = [
 
 +++
 
-Kishan KC is a fourth-year Ph.D. student in Computing and Information Science at the Golisano College of Computing and Information Sciences, Rochester Institute of Technology (RIT). I am a Graduate Research Assistant at the Use-Inspired Computational Intelligence (LUCI) Lab under the supervision of Dr. Anne Haake and Dr. Rui Li.
+I am a fourth-year Ph.D. student in the GCCIS program at the Rochester Institute of Technology (RIT). I am a Graduate Research Assistant at the Lab of Use-Inspired Computational Intelligence (LUCI) under the supervision of [Dr. Anne Haake](https://www.rit.edu/directory/arhics-anne-haake) and [Dr. Rui Li](https://ruililuci.com).
 
 **Research**\
-My current research focuses on link prediction in (biomedical) networks using network embedding and neural architecture inference approaches. In general, I am interested in building (or inferring) machine/deep learning approaches to integrate heterogeneous information about biological entities with their graph structure (provided by the known links) to predict the missing links in the networks. 
+My research aims in developing data-driven models by incorporating relational inductive bias to represent and interpret the complex interplay between various components in a biological system. Specifically, my Ph.D. focuses on graph representation learning and neural architecture inference to predict the missing interactions in the (biomedical) networks. 
 
