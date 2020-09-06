@@ -33,4 +33,8 @@ publication_type = "-1"
 
 # Exclude publications that are shown in the Featured Publications widget?
 exclude_featured = false
+
+[design]
+  # Choose how many columns the section has. Valid values: 1 or 2.
+  columns = "1"
 +++

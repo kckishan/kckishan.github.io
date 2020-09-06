@@ -20,5 +20,9 @@ view = 2
 
 # Exclude talks that are shown in the Featured Talks widget?
 exclude_featured = false
+
+[design]
+  # Choose how many columns the section has. Valid values: 1 or 2.
+  columns = "1"
 +++
 

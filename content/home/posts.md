@@ -21,5 +21,9 @@ view = 2
 #  E.g. to only show posts tagged with `Academic`, set `filter_tag = "Academic"`
 filter_tag = ""
 filter_category = ""
+
+[design]
+  # Choose how many columns the section has. Valid values: 1 or 2.
+  columns = "1"
 +++
 

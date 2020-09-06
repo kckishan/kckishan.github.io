@@ -13,6 +13,10 @@ weight = 11
 # Number of posters to list.
 count = 10
 
+[design]
+  # Choose how many columns the section has. Valid values: 1 or 2.
+  columns = "1"
+  
 # View.
 #   1 = List
 #   2 = Compact

@@ -51,5 +51,9 @@ filter_default = 0
 [[filter]]
   name = "Graph Representation Learning"
   tag = "graph-representation-learning"
+
+[design]
+  # Choose how many columns the section has. Valid values: 1 or 2.
+  columns = "1"
 +++
 

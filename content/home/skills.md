@@ -33,4 +33,7 @@ weight = 7
   name = "Photography"
   description = "10%"
 
+[design]
+  # Choose how many columns the section has. Valid values: 1 or 2.
+  columns = "1"
 +++

@@ -28,5 +28,9 @@ view = 3
 #  5: Book
 #  6: Book chapter
 publication_type = "-1"
+
+[design]
+  # Choose how many columns the section has. Valid values: 1 or 2.
+  columns = "1"
 +++
 
