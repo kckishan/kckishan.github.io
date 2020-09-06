@@ -11,6 +11,8 @@ subtitle = ""
 # Order that this section will appear in.
 weight = 9
 
+columns = "1"
+
 # View.
 #   1 = List
 #   2 = Compact
@@ -28,9 +30,5 @@ view = 3
 #  5: Book
 #  6: Book chapter
 publication_type = "-1"
-
-[design]
-  # Choose how many columns the section has. Valid values: 1 or 2.
-  columns = "1"
 +++
 

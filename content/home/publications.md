@@ -13,6 +13,8 @@ weight = 10
 # Number of publications to list.
 count = 10
 
+columns = "1"
+
 # View.
 #   1 = List
 #   2 = Compact
@@ -33,8 +35,4 @@ publication_type = "-1"
 
 # Exclude publications that are shown in the Featured Publications widget?
 exclude_featured = false
-
-[design]
-  # Choose how many columns the section has. Valid values: 1 or 2.
-  columns = "1"
 +++

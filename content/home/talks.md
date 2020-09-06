@@ -12,6 +12,8 @@ weight = 12
 # Number of talks to list.
 count = 10
 
+columns = "1"
+
 # View.
 #   1 = List
 #   2 = Compact
@@ -20,9 +22,5 @@ view = 2
 
 # Exclude talks that are shown in the Featured Talks widget?
 exclude_featured = false
-
-[design]
-  # Choose how many columns the section has. Valid values: 1 or 2.
-  columns = "1"
 +++
 

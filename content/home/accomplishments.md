@@ -9,6 +9,7 @@ subtitle = ""
 # Order that this section will appear in.
 weight = 15
 
+columns = "1"
 # Date format
 #   Refer to https://sourcethemes.com/academic/docs/customization/#date-format
 date_format = "Jan 2006"
@@ -18,9 +19,6 @@ date_format = "Jan 2006"
 #   `title`, `organization` and `date_start` are the required parameters.
 #   Leave other parameters empty if not required.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
-[design]
-  # Choose how many columns the section has. Valid values: 1 or 2.
-  columns = "1"
 
 [[item]]
   title = "Best Oral Presentation Award"

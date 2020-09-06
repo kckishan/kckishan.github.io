@@ -9,6 +9,8 @@ subtitle = ""
 # Order that this section will appear in.
 weight = 16
 
+columns = "1"
+
 # Content.
 # Display content from the following folder.
 # For example, `folder = "project"` displays content from `content/project/`.
@@ -18,7 +20,7 @@ folder = "project"
 #   1 = List
 #   3 = Card
 #   5 = Showcase
-view = 3
+view = 5
 
 # Widget layout
 # Legend: 0 = two columns (default), 1 = single column
@@ -51,9 +53,5 @@ filter_default = 0
 [[filter]]
   name = "Graph Representation Learning"
   tag = "graph-representation-learning"
-
-[design]
-  # Choose how many columns the section has. Valid values: 1 or 2.
-  columns = "1"
 +++
 

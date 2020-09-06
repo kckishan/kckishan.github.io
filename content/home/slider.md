@@ -14,6 +14,8 @@ interval = false
 # Specify a height to ensure a consistent height for each slide.
 height = "300px"
 
+columns = "1"
+
 # Slides.
 # Duplicate an `[[item]]` block to add more slides.
 [[item]]
@@ -52,8 +54,4 @@ height = "300px"
   overlay_color = "#333"  # An HTML color value.
   overlay_img = ""  # Image path relative to your `static/img/` folder.
   overlay_filter = 0.5  # Darken the image. Value in range 0-1.
-
-[design]
-  # Choose how many columns the section has. Valid values: 1 or 2.
-  columns = "1"
 +++

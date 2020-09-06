@@ -14,8 +14,5 @@ weight = 29
 #   2 = Compact
 #   3 = Card
 view = 3
-
-[design]
-  # Choose how many columns the section has. Valid values: 1 or 2.
-  columns = "1"
+columns = "1"
 +++

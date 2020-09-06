@@ -9,6 +9,8 @@ subtitle = ""
 # Order that this section will appear in.
 weight = 7
 
+columns = "1"
+
 # Showcase personal skills or business features.
 # 
 # Add/remove as many `[[feature]]` blocks below as you like.
@@ -32,8 +34,4 @@ weight = 7
   icon_pack = "fas"
   name = "Photography"
   description = "10%"
-
-[design]
-  # Choose how many columns the section has. Valid values: 1 or 2.
-  columns = "1"
 +++
