@@ -11,8 +11,8 @@ subtitle = ""
 
 # Order that this section will appear in.
 weight = 60
-
 columns = "1"
+
 
 # Background (optional).
 #   Choose from a background color, gradient, or image.
@@ -32,6 +32,8 @@ columns = "1"
 
   # Text color (true=light or false=dark).
   text_color_light = true
+
++++
 
 {{% alert note %}}
 This is an example of using the *custom* widget to create your own homepage section.
