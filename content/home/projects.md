@@ -9,7 +9,8 @@ subtitle = ""
 # Order that this section will appear in.
 weight = 16
 
-columns = "1"
+[design]
+  columns = "1"
 
 # Content.
 # Display content from the following folder.
@@ -20,7 +21,7 @@ folder = "project"
 #   1 = List
 #   3 = Card
 #   5 = Showcase
-view = 5
+view = 1
 
 # Widget layout
 # Legend: 0 = two columns (default), 1 = single column
