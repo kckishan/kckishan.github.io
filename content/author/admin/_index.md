@@ -9,7 +9,7 @@ authors = ["admin"]
 superuser = true
 
 # Role/position
-role = "PhD Student"
+role = "Data Scientist"
 
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
@@ -24,8 +24,9 @@ email = "kk3671@rit.edu"
 # List (academic) interests or hobbies
 interests = [
     "Data Science",
-    "Graph Representation Learning",
+    "Network Representation Learning",
     "Deep Learning",
+    "Machine Learning",
     "Network Biology"
 ]
 
@@ -74,12 +75,11 @@ interests = [
  [[social]]
    icon = "cv"
    icon_pack = "ai"
-   link = "files/cv.pdf"
-
+   link = "files/kkc-cv-2020.pdf"
 +++
 
-I am a fourth-year Ph.D. student in the GCCIS program at the Rochester Institute of Technology (RIT). I am a Graduate Research Assistant at the Lab of Use-Inspired Computational Intelligence (LUCI) under the supervision of [Dr. Anne Haake](https://www.rit.edu/directory/arhics-anne-haake) and [Dr. Rui Li](https://ruililuci.com).
+I am a fifth-year Ph.D. student in the GCCIS program at the Rochester Institute of Technology (RIT). I am a ***Graduate Research Assistant*** at the *Lab of Use-Inspired Computational Intelligence (LUCI)* under the supervision of [**Dr. Anne Haake**](https://www.rit.edu/directory/arhics-anne-haake) and [**Dr. Rui Li**](https://ruililuci.com).
 
 **Research**\
-My research aims in developing data-driven models by incorporating relational inductive bias to represent and interpret the complex interplay between various components in a biological system. Specifically, my Ph.D. focuses on graph representation learning and neural architecture inference to predict the missing interactions in the (biomedical) networks. 
+My research aims in developing data-driven models by *incorporating relational inductive bias* to represent and interpret the complex interplay between various components in a biological system. Specifically, my Ph.D. focuses on *graph representation learning* and *neural architecture inference* to predict the missing interactions in the (biomedical) networks. 
 

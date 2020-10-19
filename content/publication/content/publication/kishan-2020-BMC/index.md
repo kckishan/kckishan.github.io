@@ -5,5 +5,7 @@ authors = ["Peng-Nien Yin", "**Kishan KC**", "Weishi Shi", "Qi Yu", "Rui Li", "A
 publication_types = ["2"]
 featured = false
 publication = "BMC Medical Informatics and Decision Making"
+links = [{icon_pack="fas", icon="file-pdf", name="Paper", url="https://bmcmedinformdecismak.biomedcentral.com/articles/10.1186/s12911-020-01185-z"}
+]
 +++
 

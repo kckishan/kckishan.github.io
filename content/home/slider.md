@@ -4,15 +4,15 @@ widget = "slider"  # Do not modify this line!
 active = false  # Activate this widget? true/false
 
 # Order that this section will appear in.
-weight = 1
+weight = 6
 
 # Slide interval.
 # Use `false` to disable animation or enter a time in ms, e.g. `5000` (5s).
-interval = false
+interval = 5000
 
 # Minimum slide height.
 # Specify a height to ensure a consistent height for each slide.
-height = "300px"
+height = "650px"
 
 columns = "1"
 

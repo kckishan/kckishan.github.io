@@ -1,6 +1,6 @@
 +++
 title = "Biological Network Embedding"
-date = 2020-05-25
+date = 2018-05-25
 draft = false
 
 # Tags: can be used for filtering projects.

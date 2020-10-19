@@ -16,7 +16,7 @@
     </a>
     {{ end }}
     <div class="card-text">
-      <h4><a href="{{ $link }}" {{ $target | safeHTMLAttr }}>{{ $item.Title }}</a></h4>
+      <h4 style="text-transform: capitalize;"><a href="{{ $link }}" {{ $target | safeHTMLAttr }}>{{ $item.Title }}</a></h4>
       <div class="card-desription">
         {{ with $item.Params.summary }}<p>{{ . | markdownify }}</p>{{ end }}
       </div>

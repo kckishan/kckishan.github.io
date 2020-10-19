@@ -3,7 +3,8 @@
 
 # Color theme.
 #   Choose from `default`, `ocean`, `forest`, `dark`, `apogee`, `1950s`, `coffee`, `cupcake`.
-color_theme = "default"
+color_theme = "ocean"
+
 # Enable users to switch between day and night mode?
 day_night = false
 
@@ -27,8 +28,8 @@ logo = ""
 # Enable global source code highlighting? true/false
 # Documentation: https://sourcethemes.com/academic/docs/writing-markdown-latex/#highlighting-options
 highlight = true
-# highlight_languages = ["r"]  # Add support for highlighting additional languages
-# highlight_style = "github"  # For supported styles, see https://cdnjs.com/libraries/highlight.js/
+highlight_languages = ["python"]  # Add support for highlighting additional languages
+highlight_style = "github"  # For supported styles, see https://cdnjs.com/libraries/highlight.js/
 
 # Enable global LaTeX math rendering?
 #   If false, you can enable it locally on a per page basis.
@@ -52,7 +53,7 @@ time_format = "3:04 PM"
 # Enter contact details (optional). To hide a field, clear it to "".
 email = "kk3671@rit.edu"
 phone = "585 430 0261"
-address = "307 Robert Quigley Drive, Scottsviller, New York 14546, USA"
+address = ""
 
 # Office hours: use `<br>` to insert a line break, or set to "" to remove office hours
 office_hours = ""
@@ -118,7 +119,7 @@ reading_time = true
 comment_count = true
 
 # Display next/previous section pager? (true/false)
-section_pager = false
+section_pager = true
 
 # Enable in-built social sharing buttons? (true/false)
 sharing = true
@@ -130,7 +131,7 @@ sharing = true
   date_format = "January 2006"
 
   # Citation style ("apa" or "mla")
-  citation_style = "apa"
+  citation_style = "mla"
 
 # Configuration of project pages.
 [projects]
@@ -139,9 +140,9 @@ sharing = true
   #   2: Compact
   #   3: Card
   #   4: Citation (publications only)
-  post_view = 2
-  publication_view = 2
-  talk_view = 2
+  post_view = 3
+  publication_view = 3
+  talk_view = 3
 
 # Search.
 [search]

@@ -3,7 +3,7 @@
 widget = "accomplishments"  # Do not modify this line!
 active = true  # Activate this widget? true/false
 
-title = "Accomplish&shy;ments"
+title = "Accomplishments"
 subtitle = ""
 
 # Order that this section will appear in.
@@ -22,8 +22,8 @@ date_format = "Jan 2006"
 
 [[item]]
   title = "Best Oral Presentation Award"
-  organization = "RIT Graduate Showcase, 2019"
-  certificate_url = ""
+  organization = "RIT Graduate Showcase, Rochester Institute of Technology, 2019"
+  certificate_url = "files/presentation.png"
   date_start = "2019-11-23"
   date_end = ""
   description = "For presentation titled 'Learning Sparse and Structured Gaussian Embedding of protein sequences using pairwise constraints'"
@@ -54,17 +54,33 @@ date_format = "Jan 2006"
   
   [[item]]
   title = "The Verisk Way to Go Award"
-  organization = "Verisk Information Technologies"
-  certificate_url = ""
-  date_start = "2016-02-01"
+  organization = "Verisk Information Technologies, Kathmandu, Nepal"
+  certificate_url = "files/verisk_way.jpg"
+  date_start = "2016-03-01"
   date_end = ""
   description = ""
   
   [[item]]
+  title = "Team of the Quarter"
+  organization = "Verisk Information Technologies, Kathmandu, Nepal"
+  certificate_url = "files/team_award.jpg"
+  date_start = "2016-04-01"
+  date_end = ""
+  description = ""
+
+  [[item]]
   title = "Rookie of the Year"
-  organization = "Verisk Information Technologies"
-  certificate_url = ""
-  date_start = "2015-11-01"
+  organization = "Verisk Information Technologies, Kathmandu, Nepal"
+  certificate_url = "files/rookie.jpg"
+  date_start = "2015-12-01"
+  date_end = ""
+  description = ""
+
+  [[item]]
+  title = "Academic Excellence Award"
+  organization = "Institute of Engineering, Pulchowk Campus, Lalitpur, Nepal"
+  certificate_url = "files/academic.pdf"
+  date_start = "2015-08-01"
   date_end = ""
   description = ""
   

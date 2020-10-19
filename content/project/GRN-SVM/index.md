@@ -1,11 +1,11 @@
 +++
-title = "GRN Reconstruction with Ensemble SVM"
+title = "Reconstructing Gene Regulatory Network with Ensemble SVM"
 date = 2017-05-19
 draft = false
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["machine-learning", "computational-biology"]
+tags = ["machine-learning", "computational-biology", "data-science"]
 
 # Project summary to display on homepage.
 summary = ""

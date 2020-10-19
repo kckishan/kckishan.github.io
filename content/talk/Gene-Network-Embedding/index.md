@@ -3,7 +3,7 @@ title = "Gene Network Embedding"
 date = 2019-01-16  # Schedule page publish date.
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = []
+authors = ["Kishan K C"]
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.

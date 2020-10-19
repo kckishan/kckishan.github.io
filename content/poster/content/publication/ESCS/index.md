@@ -1,22 +1,22 @@
 +++
-title = "Intoduction to Neural Networks"
-date = 2018-04-09  # Schedule page publish date.
+title = "Interpretable sparse encoding of sequences for protein-protein interaction prediction"
+date = 2020-09-06
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = []
+authors = ["Kishan KC", "Rui Li", "Feng Cui", "Anne R Haake"]
 
-# Talk start and end times.
+# Poster start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-time_start = 2018-04-09
-time_end = 2018-04-09
+time_start = 2018-02-06T17:00:00
+time_end = 2018-02-07
 all_day = false
 
 # Location of event.
-location = "Rochester Institute of Technology"
+location = ""
 
 # Name of event and optional event URL.
-event = "Statistical Machine Learning"
-event_url = ""
+event = "European Student Council Symposium"
+event_url = "https://www.escs2020.iscbsc.org"
 
 # Abstract. What's your talk about?
 abstract = ""
@@ -65,3 +65,4 @@ url_code = ""
   # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
   focal_point = ""
 +++
+

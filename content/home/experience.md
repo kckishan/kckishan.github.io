@@ -7,7 +7,7 @@ title = "Experience"
 subtitle = ""
 
 # Order that this section will appear in.
-weight = 13
+weight = 6
 
 [design]
   columns = "1"
@@ -24,13 +24,12 @@ date_format = "January 2006"
   
 [[experience]]
   title = "Graduate Research Assistant"
-  company = "Human-Centric Multi-Modal Modelling Lab, RIT"
+  company = "Lab of Use-Inspired Computational Intelligence, RIT"
   company_url = "https://www.rit.edu"
   location = "Rochester, New York"
   date_start = "2016-08-22"
   date_end = ""
-  description = """
-  """
+  description = "Biomedical network inference using Network Representation Learning and Neural architecture inference"
 
 [[experience]]
   title = "Data Engineer"
@@ -42,7 +41,7 @@ date_format = "January 2006"
   description = "Project: Medical Intelligence"
 
 [[experience]]
-  title = "Software Trainee"
+  title = "Software Trainee (Data Warehousing)"
   company = "Yomari Inc. Pvt. Ltd."
   company_url = "http://yomari.com.np"
   location = "Lalitpur, Nepal"

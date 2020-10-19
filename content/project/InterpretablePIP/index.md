@@ -1,11 +1,11 @@
 +++
-title = "Protein function prediction with Attentive Multimodal Tied Autoencoders"
-date = 2020-05-25
+title = "Interpretable protein interaction prediction"
+date = 2020-10-12
 draft = false
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["multi-network-representation-learning", "deep-learning", "tied-autoencoders", "computational-biology", "multilabel-classification"]
+tags = ["sequences", "deep-learning",  "graph-representation-learning", "protein-interaction-networks","computational-biology", "sparse-learning"]
 
 # Project summary to display on homepage.
 summary = ""
@@ -19,11 +19,11 @@ summary = ""
 slides = ""
 
 # Optional external URL for project (replaces project detail page).
-external_link = "https://kckishan.github.io/AMTAE/"
+external_link = "https://kckishan.github.io/InterpretablePIP/"
 
 # Links (optional).
 url_pdf = ""
-url_code = "https://github.com/kckishan/AMTAE"
+url_code = "https://github.com/kckishan/InterpretablePIP"
 url_dataset = ""
 url_slides = ""
 url_video = ""

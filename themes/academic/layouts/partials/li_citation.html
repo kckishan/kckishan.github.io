@@ -22,7 +22,7 @@
   <span itemprop="author">
     {{ partial "page_metadata_authors" . }}
   </span>.
-  <a href="{{ .RelPermalink }}" itemprop="name">{{ .Title }}</a>.
+  <a href="{{ .RelPermalink }}" itemprop="name" style="color: black; font-weight: bold">{{ .Title }}</a>.
   {{ if .Params.publication_short }}
   {{- .Params.publication_short | markdownify -}},
   {{ else if .Params.publication }}
