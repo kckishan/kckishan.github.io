@@ -1,6 +1,6 @@
 +++
 # Display name
-name = "Kishan KC"
+name = "Kishan K C"
 
 # Username (this should match the folder name)
 authors = ["admin"]
@@ -9,14 +9,14 @@ authors = ["admin"]
 superuser = true
 
 # Role/position
-role = "Data Scientist"
+role = "Machine Learning Scientist"
 
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
 organizations = [ { name = "Rochester Institute of Technology (RIT)", url = "https://www.rit.edu" } ]
 
 # Short bio (displayed in user profile at end of posts)
-bio = "PhD Student in Machine Learning and Network Biology"
+bio = "PhD Student in Machine Learning"
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email = "kk3671@rit.edu"
@@ -24,7 +24,7 @@ email = "kk3671@rit.edu"
 # List (academic) interests or hobbies
 interests = [
     "Data Science",
-    "Network Representation Learning",
+    "Graph Representation Learning",
     "Deep Learning",
     "Machine Learning",
     "Network Biology"
@@ -36,8 +36,8 @@ interests = [
 
 # List qualifications (such as academic degrees)
 [[education.courses]]
-  course = "BE in Computer Engineering"
-  institution = "Institute of Engineering"
+  course = "B.E. in Computer Engineering"
+  institution = "Institute of Engineering, Tribhuvan University"
   year = 2014
 
 # Social/Academic Networking
@@ -75,11 +75,10 @@ interests = [
  [[social]]
    icon = "cv"
    icon_pack = "ai"
-   link = "files/kkc-cv-2020.pdf"
+   link = "files/kishan_kc_resume.pdf"
 +++
 
-I am a fifth-year Ph.D. student in the GCCIS program at the Rochester Institute of Technology (RIT). I am a ***Graduate Research Assistant*** at the *Lab of Use-Inspired Computational Intelligence (LUCI)* under the supervision of [**Dr. Anne Haake**](https://www.rit.edu/directory/arhics-anne-haake) and [**Dr. Rui Li**](https://ruililuci.com).
+I am a fifth-year Ph.D. candidate in the GCCIS program at the Rochester Institute of Technology (RIT). I am a ***Graduate Research Assistant*** at the *Lab of Use-Inspired Computational Intelligence (LUCI)* under the supervision of [**Dr. Anne Haake**](https://www.rit.edu/directory/arhics-anne-haake) and [**Dr. Rui Li**](https://ruililuci.com).
 
 **Research**\
-My research aims in developing data-driven models by *incorporating relational inductive bias* to represent and interpret the complex interplay between various components in a biological system. Specifically, my Ph.D. focuses on *graph representation learning* and *neural architecture inference* to predict the missing interactions in the (biomedical) networks. 
-
+I am a machine learning scientist working at the intersection of machine learning and biology. My research aims in representing complex systems as a network and develop network-based machine learning (deep learning) methods to study, understand and explain the system. Specifically, my Ph.D. work focuses on designing the structure of a neural network-based encoder to learn the representation of biological entities in the network and model interactions between these entities. Recently, I am working on inferring the structure of neural network-based encoder using Bayesian Model Selection.

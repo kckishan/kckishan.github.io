@@ -29,7 +29,7 @@ date_format = "January 2006"
   location = "Rochester, New York"
   date_start = "2016-08-22"
   date_end = ""
-  description = "Biomedical network inference using Network Representation Learning and Neural architecture inference"
+  description = "Scalable biomedical network inference using Network Representation Learning and Neural architecture inference"
 
 [[experience]]
   title = "Data Engineer"
@@ -47,7 +47,7 @@ date_format = "January 2006"
   location = "Lalitpur, Nepal"
   date_start = "2014-10-18"
   date_end = "2015-05-11"
-  description = "Project: Express EDW"
+  description = "Project: Express Express Data Warehouse"
 
 [[experience]]
   title = "Research Intern"
