@@ -1,13 +1,13 @@
 +++
 # Accomplishments widget.
 widget = "accomplishments"  # Do not modify this line!
-active = true  # Activate this widget? true/false
+active = false  # Activate this widget? true/false
 
 title = "Accomplishments"
 subtitle = ""
 
 # Order that this section will appear in.
-weight = 15
+weight = 9
 
 columns = "1"
 # Date format

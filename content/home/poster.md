@@ -2,7 +2,7 @@
 # Recent poster widget.
 # This widget displays recent poster from `content/poster/`.
 widget = "poster"  # Do not modify this line!
-active = true  # Activate this widget? true/false
+active = false  # Activate this widget? true/false
 
 title = "Posters"
 subtitle = ""

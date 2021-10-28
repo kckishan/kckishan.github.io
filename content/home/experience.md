@@ -7,7 +7,7 @@ title = "Experience"
 subtitle = ""
 
 # Order that this section will appear in.
-weight = 6
+weight = 8
 
 [design]
   columns = "1"
@@ -32,29 +32,11 @@ date_format = "January 2006"
   description = "Scalable biomedical network inference using Network Representation Learning and Neural architecture inference"
 
 [[experience]]
-  title = "Data Engineer"
-  company = "Verisk Information Technologies"
-  company_url = "http://verisknepal.com.np"
-  location = "Kathmandu, Nepal"
-  date_start = "2015-05-18"
-  date_end = "2016-07-13"
-  description = "Project: Medical Intelligence"
-
-[[experience]]
-  title = "Software Trainee (Data Warehousing)"
-  company = "Yomari Inc. Pvt. Ltd."
-  company_url = "http://yomari.com.np"
-  location = "Lalitpur, Nepal"
-  date_start = "2014-10-18"
-  date_end = "2015-05-11"
-  description = "Project: Express Express Data Warehouse"
-
-[[experience]]
-  title = "Research Intern"
-  company = "E & T Nepal Pvt. Ltd."
-  company_url = ""
-  location = "Bhaktapur, Nepal"
-  date_start = "2013-05-18"
-  date_end = "2013-12-13"
-  description = "Project: 3D CAD Viewer with HTML5 over SSL"
+  title = "Applied Scientist Intern"
+  company = "Alexa AI, Amazon"
+  company_url = "https://www.amazon.com"
+  location = "Sunnyvale, CA"
+  date_start = "2021-06-07"
+  date_end = "2021-09-10"
+  description = "Embedding adaptation via transformer-based architecture in open-set few-shot learning"
 +++

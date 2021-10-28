@@ -24,10 +24,9 @@ email = "kk3671@rit.edu"
 # List (academic) interests or hobbies
 interests = [
     "Data Science",
-    "Graph Representation Learning",
+    "Network Representation Learning",
     "Deep Learning",
-    "Machine Learning",
-    "Network Biology"
+    "Machine Learning"
 ]
 
 # Organizational groups that you belong to (for People widget)
@@ -81,4 +80,4 @@ interests = [
 I am a fifth-year Ph.D. candidate in the GCCIS program at the Rochester Institute of Technology (RIT). I am a ***Graduate Research Assistant*** at the *Lab of Use-Inspired Computational Intelligence (LUCI)* under the supervision of [**Dr. Anne Haake**](https://www.rit.edu/directory/arhics-anne-haake) and [**Dr. Rui Li**](https://ruililuci.com).
 
 **Research**\
-I am a machine learning scientist working at the intersection of machine learning and biology. My research aims in representing complex systems as a network and develop network-based machine learning (deep learning) methods to study, understand and explain the system. Specifically, my Ph.D. work focuses on designing the structure of a neural network-based encoder to learn the representation of biological entities in the network and model interactions between these entities. Recently, I am working on inferring the structure of neural network-based encoder using Bayesian Model Selection.
+My broad research interests include probabilistic machine learning, network representation learning, link prediction and machine learning for scientific benefit.

@@ -1,13 +1,13 @@
 +++
 # Recent and Upcoming Talks widget.
 widget = "talks"  # Do not modify this line!
-active = true  # Activate this widget? true/false
+active = false  # Activate this widget? true/false
 
 title = "Talks"
 subtitle = ""
 
 # Order that this section will appear in.
-weight = 12
+weight = 13
 
 # Number of talks to list.
 count = 10
