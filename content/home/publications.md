@@ -8,7 +8,7 @@ title = "Recent Publications"
 subtitle = ""
 
 # Order that this section will appear in.
-weight = 10
+weight = 7
 
 # Number of publications to list.
 count = 10

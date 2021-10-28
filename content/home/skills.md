@@ -7,7 +7,7 @@ title = "Skills"
 subtitle = ""
 
 # Order that this section will appear in.
-weight = 7
+weight = 11
 
 columns = "1"
 

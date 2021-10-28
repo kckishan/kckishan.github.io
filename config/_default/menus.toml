@@ -23,34 +23,6 @@
   url = "#publications"
   weight = 4
 
-[[main]]
-  name = "Posters"
-  url = "#poster"
-  weight = 5
-  
-[[main]]
-  name = "Talks"
-  url = "#talks"
-  weight = 6
-
-[[main]]
-  name = "Accomplishments"
-  url = "#accomplishments"
-  weight = 7
-  
-  
-[[main]]
-  name = "Projects"
-  url = "#projects"
-  weight = 8
-
-[[main]]
- name = "Posts"
-  url = "#posts"
-  weight = 9
-
-
-
 #[[main]]
  # name = "Contact"
 #  url = "#contact"
