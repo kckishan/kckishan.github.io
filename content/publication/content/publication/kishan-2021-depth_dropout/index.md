@@ -1,6 +1,5 @@
 +++
-title = "Joint Inference for Neural Network Depth and Dropout Regularization
-"
+title = "Joint Inference for Neural Network Depth and Dropout Regularization"
 date = 2021-02-15
 authors = ["**Kishan KC**", "Rui Li", "Feng Cui", "Anne Haake"]
 publication_types = ["1"]
