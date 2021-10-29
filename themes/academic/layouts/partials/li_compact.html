@@ -28,15 +28,6 @@
 {{ end }}
 
 <div class="media stream-item" itemscope itemtype="http://schema.org/{{$microdata_type}}">
-  <div class="ml-3" style="padding-right: 15pt">
-    {{ $resource := ($item.Resources.ByType "image").GetMatch "*featured*" }}
-    {{ with $resource }}
-    {{ $image := .Resize "250x" }}
-    <a href="{{ $item.RelPermalink }}">
-      <img src="{{ $image.RelPermalink }}" itemprop="image">
-    </a>
-    {{end}}
-  </div>
   <div class="media-body">
     <b class="article-title mb-0 mt-0" itemprop="name">
       <a href="{{ $item.RelPermalink }}" itemprop="url">{{ $item.Title }}</a>
@@ -84,5 +75,14 @@
     </div>
     {{ end }}
 
+  </div>
+  <div class="ml-3" style="padding-right: 15pt">
+    {{ $resource := ($item.Resources.ByType "image").GetMatch "*featured*" }}
+    {{ with $resource }}
+    {{ $image := .Resize "250x" }}
+    <a href="{{ $item.RelPermalink }}">
+      <img src="{{ $image.RelPermalink }}" itemprop="image">
+    </a>
+    {{end}}
   </div>
 </div>
