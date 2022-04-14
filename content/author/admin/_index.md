@@ -9,24 +9,24 @@ authors = ["admin"]
 superuser = true
 
 # Role/position
-role = "PhD Student in Machine Learning"
+role = "Applied Scientist"
 
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-organizations = [ { name = "Rochester Institute of Technology (RIT)", url = "https://www.rit.edu" } ]
+organizations = [ { name = "Amazon Alexa AI Search"} ]
 
 # Short bio (displayed in user profile at end of posts)
-bio = "PhD Student in Machine Learning"
+bio = "Applied Scientist at Amazon Alexa AI Search"
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email = "kk3671@rit.edu"
+email = "kishankhatrichettri@gmail.com"
 
 # List (academic) interests or hobbies
 interests = [
-    "Data Science",
-    "Network Representation Learning",
-    "Deep Learning",
-    "Machine Learning"
+    "Probabilistic Machine Learning",
+    "Representation Learning",
+    "Natural Languge Processing",
+    "Link Prediction"
 ]
 
 # Organizational groups that you belong to (for People widget)
@@ -34,6 +34,11 @@ interests = [
 #user_groups = ["Researchers", "Visitors"]
 
 # List qualifications (such as academic degrees)
+[[education.courses]]
+  course = "PhD in Computing and Information Sciences"
+  institution = "Rochester Institute of Technology"
+  year = 2022
+
 [[education.courses]]
   course = "B.E. in Computer Engineering"
   institution = "Institute of Engineering, Tribhuvan University"
@@ -47,7 +52,7 @@ interests = [
 [[social]]
   icon = "envelope"
   icon_pack = "fas"
-  link = "mailto:kk3671@rit.edu" #"#contact"  # For a direct email link, use .
+  link = "mailto:kishankhatrichettri@gmail.com" #"#contact"  # For a direct email link, use .
 
 [[social]]
   icon = "twitter"
@@ -76,8 +81,6 @@ interests = [
    icon_pack = "ai"
    link = "files/kishan_kc_resume.pdf"
 +++
+I am an Applied Scientist at Amazon Alexa AI Search, working on Question Answering systems. I joined Amazon as a full-time Applied Scientist in February 2022. During my internship at the Alexa Speaker identification team last summer, I worked with Zhenning Tan to develop an open-set few-shot learning framework to improve speaker identification.
 
-I am a fifth-year Ph.D. candidate in the GCCIS program at the Rochester Institute of Technology (RIT). I am a ***Graduate Research Assistant*** at the *Lab of Use-Inspired Computational Intelligence (LUCI)* under the supervision of [**Dr. Anne Haake**](https://www.rit.edu/directory/arhics-anne-haake) and [**Dr. Rui Li**](https://ruililuci.com).
-
-**Research**\
-My broad research interests include probabilistic machine learning, network representation learning, link prediction and machine learning for scientific benefit.
+I obtained my Ph.D. in Computing and Information Sciences at Rochester Institute of Technology. In my Ph.D. thesis, I focused on developing scalable probabilistic machine learning models to learn the representation of network structured data. Furthermore, I developed Bayesian model selection to infer the most plausible neural network structure warranted by data.
