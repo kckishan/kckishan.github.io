@@ -274,15 +274,11 @@ function App() {
             <h2 id="about-heading" className="text-3xl font-bold text-center mb-10 text-primary">About Me</h2>
             <div className="flex flex-col md:flex-row items-start gap-10">
               <div className="flex-shrink-0 mx-auto md:mx-0">
-                <LazyImage
+                <img
                   src="/assets/profile.jpg"
                   alt="Kishan KC"
                   className="w-48 h-48 rounded-full object-cover border-4 border-primary"
-                  placeholder={
-                    <div className="w-48 h-48 rounded-full bg-gradient-to-br from-blue-100 to-purple-100 dark:from-blue-900 dark:to-purple-900 flex items-center justify-center border-4 border-primary">
-                      <span className="text-4xl">👨‍💻</span>
-                    </div>
-                  }
+                  loading="lazy"
                 />
               </div>
               <motion.div className="flex-1 space-y-6" initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
