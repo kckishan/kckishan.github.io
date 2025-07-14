@@ -486,7 +486,7 @@ function App() {
                 Highlights of my most impactful research contributions
               </p>
             
-                          <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-8 max-w-7xl mx-auto items-start">
+                          <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-8 max-w-7xl mx-auto">
                 {isLoading ? (
                   // Loading skeletons for featured publications
                   [1, 2, 3].map((i) => (
@@ -541,7 +541,7 @@ function App() {
           {showOtherPublications && (
             <section id="publications" className="py-20 px-6 max-w-6xl mx-auto" aria-labelledby="other-publications-heading">
               <h2 id="other-publications-heading" className="text-3xl font-bold text-center mb-12 text-publication">Other Publications</h2>
-              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 items-start" role="list" aria-label="Additional research publications">
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8" role="list" aria-label="Additional research publications">
                 {regularPublications.length > 0 ? (
                   regularPublications.map((pub, index) => (
                     <motion.div

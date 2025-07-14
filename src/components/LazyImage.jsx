@@ -21,14 +21,14 @@ function LazyImage({ src, alt, className, placeholder = null, ...props }) {
   }
 
   return (
-    <div className="relative">
+    <div className={`relative ${className}`}>
       {!imageLoaded && (
-        <div className={`absolute inset-0 bg-gray-200 dark:bg-gray-700 animate-pulse ${className}`}></div>
+        <div className="absolute inset-0 bg-gray-200 dark:bg-gray-700 animate-pulse"></div>
       )}
       <img
         src={src}
         alt={alt}
-        className={`${className} ${imageLoaded ? 'opacity-100' : 'opacity-0'} transition-opacity duration-300`}
+        className={`${imageLoaded ? 'opacity-100' : 'opacity-0'} transition-opacity duration-300`}
         loading="lazy"
         onLoad={handleImageLoad}
         onError={handleImageError}

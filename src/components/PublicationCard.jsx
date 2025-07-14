@@ -109,7 +109,7 @@ function PublicationCard({
 
   return (
     <motion.div
-      whileHover={{ scale: 1.02, y: -5 }}
+      whileHover={{ scale: 1.01, y: -2 }}
       transition={{ type: 'spring', stiffness: 300 }}
       className="bg-white dark:bg-gray-800 border border-publication shadow-sm hover:shadow-md rounded-lg overflow-hidden h-full flex flex-col"
       role="article"
@@ -117,20 +117,19 @@ function PublicationCard({
     >
       <div className="h-48 bg-white dark:bg-gray-800 flex items-center justify-center relative">
         {image && !imageError ? (
-          <LazyImage
-            src={image}
-            alt={`Research paper: ${title}`}
-            className="w-full h-full object-contain p-4"
-            onError={handleImageError}
-            placeholder={
-              <div className="w-full h-full flex items-center justify-center p-4">
-                <div className="text-center animate-pulse">
-                  <div className="text-4xl mb-2">📄</div>
-                  <div className="h-3 bg-gray-200 dark:bg-gray-700 rounded w-20 mx-auto"></div>
-                </div>
-              </div>
-            }
-          />
+          <div className="w-full h-full flex items-center justify-center p-4">
+            <img
+              src={image}
+              alt={`Research paper: ${title}`}
+              className="max-w-full max-h-full object-contain transition-opacity duration-300"
+              onError={handleImageError}
+              loading="lazy"
+              onLoad={(e) => {
+                e.target.style.opacity = '1';
+              }}
+              style={{ opacity: 0 }}
+            />
+          </div>
         ) : (
           <div className="text-center">
             <div className="text-4xl mb-2">📄</div>
@@ -139,10 +138,10 @@ function PublicationCard({
         )}
       </div>
       
-      <div className="p-6 flex-1 flex flex-col">
+      <div className="p-6 flex-1 flex flex-col relative z-10 bg-white dark:bg-gray-800">
         <h3 
           id={`paper-title-${publicationId}`}
-          className="text-lg font-semibold mb-3 text-gray-800 dark:text-gray-100 line-clamp-2"
+          className="text-lg font-semibold mb-3 text-gray-800 dark:text-gray-100 min-h-[3.5rem] flex items-start"
           title={title}
         >
           {title}
