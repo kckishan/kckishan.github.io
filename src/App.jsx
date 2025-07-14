@@ -173,7 +173,7 @@ function App() {
                     )}
                   </button>
                   <button 
-                    onClick={() => scrollToSection('publications')} 
+                    onClick={() => scrollToSection('featured-publications')} 
                     className={`transition-colors focus:outline-none focus:ring-2 focus:ring-primary rounded-lg px-3 py-2 relative ${
                       activeSection === 'publications' 
                         ? 'text-primary font-semibold' 
@@ -250,7 +250,7 @@ function App() {
                     Experience
                   </button>
                   <button 
-                    onClick={() => { scrollToSection('publications'); setMobileMenuOpen(false); }} 
+                    onClick={() => { scrollToSection('featured-publications'); setMobileMenuOpen(false); }} 
                     className={`block w-full text-left px-4 py-3 transition-colors focus:outline-none focus:ring-2 focus:ring-primary rounded-lg mx-2 touch-manipulation ${
                       activeSection === 'publications' 
                         ? 'text-primary font-semibold bg-primary/10' 
