@@ -42,16 +42,15 @@ function App() {
   }, [darkMode]);
 
   useEffect(() => {
-    let scrollTimeout;
     const handleScroll = () => {
       const scrollY = window.scrollY;
       setShowBackToTop(scrollY > 300);
-      
+
       // Calculate scroll progress
       const totalHeight = document.documentElement.scrollHeight - window.innerHeight;
       const progress = totalHeight > 0 ? (scrollY / totalHeight) * 100 : 0;
       setScrollProgress(Math.min(progress, 100));
-      
+
       // Track active section
       const sections = ['about', 'experience', 'publications'];
       const sectionElements = sections.map(id => ({
@@ -67,26 +66,11 @@ function App() {
         }
       }
       setActiveSection(currentSection);
-      
-      // Track scroll depth for analytics
-      clearTimeout(scrollTimeout);
-      scrollTimeout = setTimeout(() => {
-        const scrollPercentage = Math.round(progress);
-        
-        if (window.gtag && (scrollPercentage === 25 || scrollPercentage === 50 || scrollPercentage === 75 || scrollPercentage === 100)) {
-          window.gtag('event', 'scroll', {
-            event_category: 'engagement',
-            event_label: `${scrollPercentage}%`,
-            value: scrollPercentage
-          });
-        }
-      }, 250);
     };
 
     window.addEventListener('scroll', handleScroll, { passive: true });
     return () => {
       window.removeEventListener('scroll', handleScroll);
-      clearTimeout(scrollTimeout);
     };
   }, []);
 
