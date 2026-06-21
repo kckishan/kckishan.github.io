@@ -1,2 +1,5 @@
 # Redirect default Netlify subdomain to primary domain
-https://kishankc.netlify.com/* https://kishankc.com.np/:splat 301!
+https://kishankc.netlify.com/* https://kishankc.com/:splat 301!
+
+# Redirect old domain to new domain
+https://kishankc.com.np/* https://kishankc.com/:splat 301!
